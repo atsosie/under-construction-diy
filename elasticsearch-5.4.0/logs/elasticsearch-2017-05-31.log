@@ -1,0 +1,68 @@
+[2017-05-31T08:25:52,618][INFO ][o.e.n.Node               ] [vMvkc2c] stopping ...
+[2017-05-31T08:25:52,871][INFO ][o.e.n.Node               ] [vMvkc2c] stopped
+[2017-05-31T08:25:52,874][INFO ][o.e.n.Node               ] [vMvkc2c] closing ...
+[2017-05-31T08:25:52,928][INFO ][o.e.n.Node               ] [vMvkc2c] closed
+[2017-05-31T08:26:34,540][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-31T08:26:34,749][INFO ][o.e.e.NodeEnvironment    ] [vMvkc2c] using [1] data paths, mounts [[/vagrant (vagrant)]], net usable_space [43.8gb], net total_space [65.1gb], spins? [possibly], types [vboxsf]
+[2017-05-31T08:26:34,749][INFO ][o.e.e.NodeEnvironment    ] [vMvkc2c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-31T08:26:37,764][INFO ][o.e.n.Node               ] node name [vMvkc2c] derived from node ID [vMvkc2crRDOAiCeMB2kf9w]; set [node.name] to override
+[2017-05-31T08:26:37,765][INFO ][o.e.n.Node               ] version[5.4.0], pid[26593], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.4.0-78-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-05-31T08:26:40,523][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [aggs-matrix-stats]
+[2017-05-31T08:26:40,525][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [ingest-common]
+[2017-05-31T08:26:40,526][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [lang-expression]
+[2017-05-31T08:26:40,526][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [lang-groovy]
+[2017-05-31T08:26:40,528][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [lang-mustache]
+[2017-05-31T08:26:40,529][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [lang-painless]
+[2017-05-31T08:26:40,529][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [percolator]
+[2017-05-31T08:26:40,531][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [reindex]
+[2017-05-31T08:26:40,532][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [transport-netty3]
+[2017-05-31T08:26:40,534][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [transport-netty4]
+[2017-05-31T08:26:40,543][INFO ][o.e.p.PluginsService     ] [vMvkc2c] no plugins loaded
+[2017-05-31T08:26:43,969][INFO ][o.e.d.DiscoveryModule    ] [vMvkc2c] using discovery type [zen]
+[2017-05-31T08:26:44,848][INFO ][o.e.n.Node               ] initialized
+[2017-05-31T08:26:44,849][INFO ][o.e.n.Node               ] [vMvkc2c] starting ...
+[2017-05-31T08:26:45,068][INFO ][o.e.t.TransportService   ] [vMvkc2c] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-05-31T08:26:45,092][WARN ][o.e.b.BootstrapChecks    ] [vMvkc2c] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-05-31T08:26:48,431][INFO ][o.e.c.s.ClusterService   ] [vMvkc2c] new_master {vMvkc2c}{vMvkc2crRDOAiCeMB2kf9w}{bNVegj1ERdiCVq7-ZH6CoQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-31T08:26:48,497][INFO ][o.e.h.n.Netty4HttpServerTransport] [vMvkc2c] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-05-31T08:26:48,500][INFO ][o.e.n.Node               ] [vMvkc2c] started
+[2017-05-31T08:26:50,423][INFO ][o.e.g.GatewayService     ] [vMvkc2c] recovered [9] indices into cluster_state
+[2017-05-31T08:26:59,251][INFO ][o.e.c.r.a.AllocationService] [vMvkc2c] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[users][3]] ...]).
+[2017-05-31T08:27:07,636][INFO ][o.e.c.m.MetaDataDeleteIndexService] [vMvkc2c] [projects/GDpahGURQ8O8ckqEm3H-JA] deleting index
+[2017-05-31T08:27:09,253][INFO ][o.e.c.m.MetaDataCreateIndexService] [vMvkc2c] [projects] creating index, cause [api], templates [], shards [5]/[1], mappings [project]
+[2017-05-31T08:27:11,251][INFO ][o.e.c.m.MetaDataMappingService] [vMvkc2c] [projects/628Fr_OyQjWAdA3OT-KiOg] update_mapping [project]
+[2017-05-31T08:27:15,061][INFO ][o.e.c.m.MetaDataMappingService] [vMvkc2c] [projects/628Fr_OyQjWAdA3OT-KiOg] update_mapping [project]
+[2017-05-31T08:27:16,239][INFO ][o.e.m.j.JvmGcMonitorService] [vMvkc2c] [gc][young][31][6] duration [808ms], collections [1]/[1.3s], total [808ms]/[1.6s], memory [162.2mb]->[109.1mb]/[1.9gb], all_pools {[young] [126.8mb]->[801.1kb]/[133.1mb]}{[survivor] [14.5mb]->[14.9mb]/[16.6mb]}{[old] [20.8mb]->[93.6mb]/[1.8gb]}
+[2017-05-31T08:27:16,243][WARN ][o.e.m.j.JvmGcMonitorService] [vMvkc2c] [gc][31] overhead, spent [808ms] collecting in the last [1.3s]
+[2017-05-31T08:28:03,912][INFO ][o.e.c.m.MetaDataMappingService] [vMvkc2c] [projects/628Fr_OyQjWAdA3OT-KiOg] update_mapping [project]
+[2017-05-31T09:04:23,031][INFO ][o.e.n.Node               ] [vMvkc2c] stopping ...
+[2017-05-31T09:04:23,159][INFO ][o.e.n.Node               ] [vMvkc2c] stopped
+[2017-05-31T09:04:23,160][INFO ][o.e.n.Node               ] [vMvkc2c] closing ...
+[2017-05-31T09:04:23,169][INFO ][o.e.n.Node               ] [vMvkc2c] closed
+[2017-05-31T17:10:10,668][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-31T17:10:10,817][INFO ][o.e.e.NodeEnvironment    ] [vMvkc2c] using [1] data paths, mounts [[/vagrant (vagrant)]], net usable_space [43.8gb], net total_space [65.1gb], spins? [possibly], types [vboxsf]
+[2017-05-31T17:10:10,819][INFO ][o.e.e.NodeEnvironment    ] [vMvkc2c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-31T17:10:12,172][INFO ][o.e.n.Node               ] node name [vMvkc2c] derived from node ID [vMvkc2crRDOAiCeMB2kf9w]; set [node.name] to override
+[2017-05-31T17:10:12,173][INFO ][o.e.n.Node               ] version[5.4.0], pid[3453], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.4.0-78-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-05-31T17:10:14,961][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [aggs-matrix-stats]
+[2017-05-31T17:10:14,962][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [ingest-common]
+[2017-05-31T17:10:14,963][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [lang-expression]
+[2017-05-31T17:10:14,964][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [lang-groovy]
+[2017-05-31T17:10:14,964][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [lang-mustache]
+[2017-05-31T17:10:14,965][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [lang-painless]
+[2017-05-31T17:10:14,966][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [percolator]
+[2017-05-31T17:10:14,967][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [reindex]
+[2017-05-31T17:10:14,967][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [transport-netty3]
+[2017-05-31T17:10:14,968][INFO ][o.e.p.PluginsService     ] [vMvkc2c] loaded module [transport-netty4]
+[2017-05-31T17:10:14,969][INFO ][o.e.p.PluginsService     ] [vMvkc2c] no plugins loaded
+[2017-05-31T17:10:18,417][INFO ][o.e.d.DiscoveryModule    ] [vMvkc2c] using discovery type [zen]
+[2017-05-31T17:10:19,524][INFO ][o.e.n.Node               ] initialized
+[2017-05-31T17:10:19,525][INFO ][o.e.n.Node               ] [vMvkc2c] starting ...
+[2017-05-31T17:10:19,989][INFO ][o.e.t.TransportService   ] [vMvkc2c] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-05-31T17:10:20,014][WARN ][o.e.b.BootstrapChecks    ] [vMvkc2c] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-05-31T17:10:23,087][INFO ][o.e.c.s.ClusterService   ] [vMvkc2c] new_master {vMvkc2c}{vMvkc2crRDOAiCeMB2kf9w}{1pBKOnMgRQyZfpj74FNmkw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-31T17:10:23,150][INFO ][o.e.h.n.Netty4HttpServerTransport] [vMvkc2c] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-05-31T17:10:23,153][INFO ][o.e.n.Node               ] [vMvkc2c] started
+[2017-05-31T17:10:25,125][INFO ][o.e.g.GatewayService     ] [vMvkc2c] recovered [9] indices into cluster_state
+[2017-05-31T17:10:33,683][INFO ][o.e.c.r.a.AllocationService] [vMvkc2c] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[users][3]] ...]).
+[2017-05-31T17:26:20,317][INFO ][o.e.m.j.JvmGcMonitorService] [vMvkc2c] [gc][960] overhead, spent [419ms] collecting in the last [1s]
